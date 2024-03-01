@@ -1,0 +1,155 @@
+body {
+  font-family: sans-serif;
+  color: #666;
+  margin: 0; 
+  display: flex;
+  justify-content: center; 
+  height: 100vh; 
+  .center-container {	
+    width: 600px;
+  };
+  background-color: #BBB;
+}
+.all {
+  background-color: #EEE;
+  border-radius: 8px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.head {
+  height: 100px; 
+}
+
+.todo-app {
+  text-align: center;
+}
+
+.input-area {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.input-wrapper {
+  display: flex; 
+}
+
+.input {
+  border-radius: 8px;
+  margin: 0px 2px;
+  padding: 4px 16px;
+}
+.select {
+  border-radius: 8px;
+  margin: 0px 2px;
+  padding: 4px 16px;
+}
+
+.tandb-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  width:270px;
+  border-radius: 8px;
+  margin: 0px 2px;
+  padding: 4px 16px;
+}
+.add-button {
+  width:305px;
+  border-radius: 8px;
+  margin: 0px 2px;
+  padding: 4px 16px;
+  background-color: #75A9FF;
+  color: #fff;
+  border: 1.5px solid #136FFF;
+}
+.add-button:hover {
+  background-color: #136FFF;
+  color: #fff;
+  cursor: pointer;
+}
+.back-button {
+  width:305px;
+  border-radius: 8px;
+  margin: 0px 2px;
+  padding: 4px 16px;
+  background-color: #77F9C3;
+  color: #fff;
+  border: 1.5px solid #00F9A9;
+}
+.back-button:hover {
+  background-color: #00F9A9;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #79A8A9;
+  color: #fff;
+  cursor: pointer;
+}
+.todo-list {
+  background-color: #FFF;
+  border-radius: 8px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 130px;
+  margin-top: 20px;
+}
+.todo-sammary {
+  text-align: center;
+}
+
+.todo {
+  border: 1px solid #666;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #E9F6F9;
+  color: #888;
+  border: #888;
+  width: 300px;
+  border: 1.5px solid #AFECFA
+}
+.delete-button {
+  border-radius: 8px;
+  background-color: #FA817D;
+  color: #fff;
+  border: 1.5px solid #FA0800;
+}
+.delete-button:hover {
+  background-color: #FA0800;
+  color: #fff;
+  cursor: pointer;
+}
+.edit-button {
+  border-radius: 8px;
+  background-color: #B384FF;
+  color: #fff;
+  border: 1.5px solid #5507FF;
+}
+.edit-button:hover {
+  background-color: #5507FF;
+  color: #fff;
+  cursor: pointer;
+}
+.eandd-button {
+  display: flex;
+  justify-content: center;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
+.filter-select {
+  border-radius: 8px;
+}
